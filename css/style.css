@@ -1,10 +1,14 @@
 @charset "UTF-8";
-body {
-  background-color: #000000;
-}
-
 /*MOVIL*/
 @media only screen and (max-width: 1000px) {
+  .bg-head {
+    display: none;
+  }
+  .logo {
+    position: absolute;
+    left: 40px;
+    top: -65px;
+  }
   .nav {
     display: none;
   }
@@ -17,16 +21,18 @@ body {
   .nav-mov {
     background-color: rgb(0, 0, 0);
     width: 100%;
-    right: 200px;
     display: flex;
     list-style: none;
+    position: absolute;
+    left: -20px;
+    width: 395px;
+    top: 50px;
   }
   .nav-a {
     width: 100%;
     text-decoration: none;
-    font-size: 20px;
-    padding: 5px;
-    margin: 10px;
+    font-size: 27px;
+    padding: 10px;
     color: white;
     top: 200px;
     font-family: "Cormorant Garamond", serif;
@@ -37,10 +43,37 @@ body {
   .title-head2 {
     display: none;
   }
+  .mov-bg-inicio {
+    display: flex;
+    width: 100%;
+  }
+  .mov-title-head {
+    font-family: "Gloock", serif;
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 380px;
+    right: 1px;
+    z-index: 20;
+    text-shadow: 8px 8px 9px #000000;
+  }
+  .mov-title-head2 {
+    font-family: "Gloock", serif;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    position: absolute;
+    top: 420px;
+    right: 1px;
+    z-index: 20;
+    text-shadow: 8px 8px 9px #000000;
+  }
 }
 /*PC*/
 @media only screen and (min-width: 1000px) {
   .nav-mov {
+    display: none;
+  }
+  .mov-weare {
     display: none;
   }
 }
@@ -61,7 +94,7 @@ body {
 
 .marginblack {
   background-color: rgb(41, 41, 41);
-  height: 1000px;
+  height: 930px;
   width: 700px;
   position: absolute;
   right: 0px;
@@ -125,6 +158,14 @@ button {
 
 .btn-unete:hover {
   background-color: #e65c00; /* Color naranja más oscuro en el hover */
+}
+
+footer {
+  color: white;
+  position: fixed;
+  display: flex;
+  padding: 30px;
+  bottom: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
