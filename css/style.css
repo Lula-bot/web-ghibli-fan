@@ -53,7 +53,7 @@
     color: white;
     font-size: 70px;
     position: absolute;
-    top: 380px;
+    top: 340px;
     right: 1px;
     z-index: 20;
     text-shadow: 8px 8px 9px #000000;
@@ -63,10 +63,16 @@
     color: rgb(255, 255, 255);
     font-size: 100px;
     position: absolute;
-    top: 420px;
+    top: 380px;
     right: 1px;
     z-index: 20;
     text-shadow: 8px 8px 9px #000000;
+  }
+  .btn-unete {
+    position: absolute;
+    display: flex;
+    right: 80px;
+    top: 520px;
   }
 }
 /*PC*/
@@ -167,6 +173,20 @@ footer {
   display: flex;
   padding: 30px;
   bottom: 0px;
+}
+
+/*MOVIL*/
+.banner {
+  display: flex;
+  width: 100vw;
+}
+
+.mov-quienes {
+  margin-top: 20px;
+  padding: 19px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3vw;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
