@@ -353,18 +353,21 @@ hr {
   position: absolute;
   left: 500px;
   padding: 200px;
+  
 }
 .container-img-film {
   display: flex;
   gap: 100px; 
   padding: 80px;
   color: white;
+  border: solid rgb(255, 255, 255);
 
 }
 .image-film {
   width: 500px; 
   height: 500px; 
   object-fit: cover; 
+  border: solid rgb(255, 255, 255);
 }
 @media (max-width: 1000px) {
 
