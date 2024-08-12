@@ -1,0 +1,18 @@
+# Asegura que los archivos CSS se manejen como texto
+*.css text
+# Tratamiento de finales de línea
+*.txt text
+*.md text
+
+# Archivos binarios
+*.png binary
+*.jpg binary
+*.exe binary
+*.jar binary
+
+# Manejo de finales de línea para todos los archivos
+* text=auto
+
+# Configuración para archivos específicos
+*.sh text eol=lf
+*.bat text eol=crlf
