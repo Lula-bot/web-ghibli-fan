@@ -1,12 +1,13 @@
+/*STYLE-FILMOGRAFIA*/
 .nav-film { 
-    background-color: rgb(255, 136, 0);
+    background-color: rgb(46, 46, 46);
     height: 60px;
     width: 100vw;
     position: absolute;
     top: 1px;
     border-bottom: 2px solid white;
-}
-.txt-nav-film{
+  }
+  .txt-nav-film{
     display: inline-block;
     font-family: "Gloock", serif;
     font-size: 60px;
@@ -15,32 +16,29 @@
     position: absolute;
     left: 50px;
     color: rgb(255, 255, 255);
-}
-.container-img-film {
+  }
+  .description-film {
+    position: absolute;
+    left: 500px;
+    padding: 200px;
+    
+  }
+  .container-img-film {
     display: flex;
-    align-items: center; /* Alinea verticalmente los elementos al centro */
-    gap: 20px; /* Espacio entre la imagen y la descripción */
-    padding: 20px;
-    flex-wrap: wrap; /* Permite el ajuste de los elementos en pantallas pequeñas */
-}
-.image-film {
-    width: 500px; /* Ancho fijo de 500px */
-    height: 500px; /* Alto fijo de 400px */
-    object-fit: cover; /* Asegura que la imagen cubra el área del contenedor y se recorte si es necesario */
-    flex: 1 1 auto; /* Permite que la imagen se ajuste a su contenedor */
-}
-.description {
-    padding: 30px;
-    flex: 1 1 auto; /* Permite que el texto se ajuste a su contenedor */
-    max-width: calc(100% - 1000px); /* Ajusta el ancho máximo para dejar espacio para la imagen y el gap */
+    gap: 100px; 
+    padding: 80px;
     color: white;
-}
-.description p {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 20px;
-}
-@media (max-width: 1000px) {
-
+    border: solid rgb(255, 255, 255);
+  
+  }
+  .image-film {
+    width: 500px; 
+    height: 500px; 
+    object-fit: cover; 
+    border: solid rgb(255, 255, 255);
+  }
+  @media (max-width: 1000px) {
+  
     .txt-nav-film{
         top: 2px;
         font-size: 50px;
@@ -54,12 +52,17 @@
         width: 100%; 
         height: auto; 
     }
-    .description {
-        max-width: 100%; 
+    .description-film {
+        max-width: 100%;   
+        left: 0px;
+        padding: 0px;
+        position: relative;
+        margin-top: -100px;
     }
-}
-@media (max-width: 600px) {
+  }
+  @media (max-width: 600px) {
     .container-img-film {
         padding: 10px;
     }
-}
+  }
+  

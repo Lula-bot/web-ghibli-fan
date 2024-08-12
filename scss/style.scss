@@ -74,21 +74,24 @@
         right: 80px;
         top: 520px;
     }
-}
-.btn-unete a{
+  }
+  .btn-unete a{
     color: white;
     text-decoration: none;
-}
-/*PC*/
-@media only screen and (min-width:1000px) {
+  }
+  /*PC*/
+  @media only screen and (min-width:1000px) {
+    .logo{
+      display: none;
+    }
     .nav-mov {
         display: none;
     }
     .mov-weare {
         display: none;
     }
-}
-.bg-head {
+  }
+  .bg-head {
     position: absolute;
     width: 100%;
     max-height: 1000px;
@@ -96,12 +99,12 @@
     z-index: -1;
     top: 0px;
     right: 0px;
-}
-.logo {
+  }
+  .logo {
     width: 300px;
     padding: 50px;
-}
-.marginblack {
+  }
+  .marginblack {
     background-color: rgb(41, 41, 41);
     height: 930px;
     width: 700px;
@@ -109,20 +112,20 @@
     right: 0px;
     top: 0px;
     opacity: 0.9;
-}
-.nav{
+  }
+  .nav{
     margin: 50px;
     margin-right: 50px;
-}
-.nav-tit{
+  }
+  .nav-tit{
     color: white;
     margin: 50px;
     text-decoration: none;
     font-size: 25px;
     font-family: "Cormorant Garamond", serif;
     text-shadow: 8px 8px 9px #000000;
-}
-.title-head {
+  }
+  .title-head {
     font-family: "Gloock", serif;
     color: white;
     font-size: 180px;
@@ -131,8 +134,8 @@
     right: 150px;
     z-index: 20;
     text-shadow: 8px 8px 9px #000000;
-}
-.title-head2 {
+  }
+  .title-head2 {
     font-family: "Gloock", serif;
     color: rgb(255, 255, 255);
     font-size: 180px;
@@ -141,14 +144,14 @@
     right: 100px;
     z-index: 20;
     text-shadow: 8px 8px 9px #000000;
-}
-button { 
+  }
+  button { 
     position: absolute;
     top: 600px;
     right: 50px;
     z-index: 1100;
-}
-.btn-unete {
+  }
+  .btn-unete {
     background-color: #ff6600; 
     color: white; 
     border: none; 
@@ -157,14 +160,14 @@ button {
     font-size: 16px; 
     font-family: Arial, sans-serif; 
     transition: background-color 0.3s ease; 
-}
-.btn-unete:hover {
+  }
+  .btn-unete:hover {
     background-color: #e65c00; 
-}
-footer {
+  }
+  footer {
     color: white;
     position: fixed;
     display: flex;
     padding: 30px;
     bottom: 0px
-}
+  }
