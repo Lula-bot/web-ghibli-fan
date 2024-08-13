@@ -1,18 +1,20 @@
-* text=auto
-
 # Tratamiento de finales de línea
 *.txt text
 *.md text
 
 # Archivos binarios
-*.png binary
-*.jpg binary
-*.exe binary
-*.jar binary
+*.png=binary
+*.jpg=binary
+*.exe=binary
+*.jar=binary
 
 # Manejo de finales de línea para todos los archivos
 * text=auto
 
 # Configuración para archivos específicos
-*.sh text eol=lf
-*.bat text eol=crlf
+*.sh=text eol=lf
+*.bat=text eol=crlf
+
+# Configura archivos CSS para usar finales de línea LF
+*.css=text eol=lf
+
