@@ -1,0 +1,74 @@
+/*STYLE-NOSOTRO0S*/
+/*MOVIL*/
+@media only screen and (max-width: 1000px) {
+    .img-txt {
+      display: none;
+    }
+  }
+  .banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .banner-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+  }
+  
+  .cont-quienes-somos {
+    height: 150px;
+  }
+  
+  .mov-quienes {
+    display: inline-block;
+    font-family: "Gloock", serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 100%;
+    position: absolute;
+    left: 40px;
+    top: 240px;
+    color: white;
+  }
+  
+  .mov-somos {
+    display: inline-block;
+    font-family: "Gloock", serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 100%;
+    position: absolute;
+    left: 125px;
+    top: 290px;
+    color: white;
+  }
+  
+  hr {
+    border: 0;
+    height: 2px;
+    background: #ffffff;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .sec-txt {
+    display: flex;
+    position: absolute;
+    top: 340px;
+  }
+  
+  .mov-container-txt p {
+    margin: 40px;
+    color: white;
+  }
+  
+  .img-txt {
+    margin: 50px;
+    height: 500px;
+  }
