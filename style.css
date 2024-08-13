@@ -1,4 +1,4 @@
-/*MOVIL*/
+
 @media only screen and (max-width: 1000px) {
   .bg-head {
     display: none;
@@ -79,7 +79,6 @@
   text-decoration: none;
 }
 
-/*PC*/
 @media only screen and (min-width: 1000px) {
   .logo {
     display: none;
@@ -182,8 +181,6 @@ footer {
   bottom: 0px;
 }
 
-/*STYLE-NOSOTRO0S*/
-/*MOVIL*/
 @media only screen and (max-width: 1000px) {
   .img-txt {
     display: none;
@@ -257,7 +254,7 @@ hr {
   height: 500px;
 }
 
-/*STYLE-GALERIA.SCSS*/
+
 .container-grid-galeria {
   width: 100%;
   max-width: 1100px;
@@ -359,7 +356,7 @@ hr {
   color: rgb(255, 255, 255);
 }
 
-/*STYLE-FILMOGRAFIA*/
+
 .nav-film {
   background-color: rgb(46, 46, 46);
   height: 60px;
@@ -428,7 +425,7 @@ hr {
     padding: 10px;
   }
 }
-/*STYLE-UNITE*/
+
 .container-unite1 {
   display: flex;
   position: absolute;
